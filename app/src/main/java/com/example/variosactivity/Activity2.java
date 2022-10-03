@@ -21,7 +21,7 @@ public class Activity2 extends AppCompatActivity {
             String textoRecibido = intent.getStringExtra(MainActivity.ExtraMensage);
             txtRecibido.setText(textoRecibido);
 
-            //PREGUNTAR PROFESOR MENSAJE NO SE MUESTRA BIEN EN PANTALLA2
+            //PREGUNTAR PROFESOR MENSAJE NO SE MUESTRA BIEN EN PANTALLA2.
         }
     }
 }
