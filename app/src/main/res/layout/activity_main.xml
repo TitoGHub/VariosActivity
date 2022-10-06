@@ -14,7 +14,6 @@
         android:layout_marginBottom="60dp"
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:onClick="enviarPantallaDos"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
@@ -25,10 +24,21 @@
         android:ems="10"
         android:hint="Escribe un mensaje"
         android:inputType="textPersonName"
-        android:text="Name"
         android:textColorHint="#B5000000"
         app:layout_constraintBaseline_toBaselineOf="@+id/btbPagDos"
         app:layout_constraintEnd_toStartOf="@+id/btbPagDos"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtPantalla1"
+        android:layout_width="346dp"
+        android:layout_height="141dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="60dp"
+        android:background="#ECBEBE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
